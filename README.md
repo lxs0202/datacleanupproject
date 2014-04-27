@@ -27,3 +27,5 @@ or go into run_analysis.R  to run each line to see the middle results.
 ### step 3
 
 There are comments in the run_analysis.R to explain how it works in each step to create the final result 
+
+to be noticed, the output file is a csv format, separated by comma.
