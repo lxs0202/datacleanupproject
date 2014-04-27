@@ -93,5 +93,5 @@ testmean <- cast(mdata, subject + activity~variable, mean)
 # write output to a file
 output <- as.data.frame(testmean)
 
-write.table(output, file= "tidydata.txt", sep=",")
+write.table(output, file= "tidydata.txt", sep=",", row.names = FALSE)
 
